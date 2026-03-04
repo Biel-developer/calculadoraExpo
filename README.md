@@ -11,10 +11,10 @@ O objetivo do projeto é permitir a realização de operações matemáticas bá
 O aplicativo deve permitir que o usuário insira números de 0 a 9 por meio de botões na tela.
 
 O aplicativo deve permitir a realização das seguintes operações:
-Adição +
-Subtração -
-Multiplicação *
-Divisão /
+### Adição (+)
+### Subtração (-)
+### Multiplicação (*)
+### Divisão (/)
 
 O aplicativo deve exibir na tela os números digitados e a operação selecionada.
 apresentar o resultado da operação ao pressionar o botão "=".
