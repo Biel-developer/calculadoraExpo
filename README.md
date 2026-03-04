@@ -31,3 +31,9 @@ manter a organização da interface independentemente do tamanho da tela.
 Este projeto possui operações matemáticas básicas: adição, subtração, multiplicação e divisão,
 o usuário insere os valores numéricos, seleciona a operação desejada e visualiza o resultado na tela
 não inclui funcionalidades avançadas de operações complexas apenas uma calculadora basica
+
+
+
+# Protótipo 
+<img width="400" height="1200" alt="image" src="https://github.com/user-attachments/assets/21230b1c-4d68-4b93-81d2-89678c24856d" />
+
