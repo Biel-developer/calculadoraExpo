@@ -1,54 +1,33 @@
-<<<<<<< HEAD
-# Welcome to your Expo app 👋
+## Descrição
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este aplicativo de calculadora vai ser desenvolvido utilizando React Native com suporte da plataforma Expo.
 
-## Get started
+## Objetivo
 
-1. Install dependencies
+O objetivo do projeto é permitir a realização de operações matemáticas básicas de forma rápida, prática e intuitiva em dispositivos móveis com a  proposta de oferecer uma calculadora simples e eficiente.
 
-   ```bash
-   npm install
-   ```
+## Requisitos Funcionais
 
-2. Start the app
+O aplicativo deve permitir que o usuário insira números de 0 a 9 por meio de botões na tela.
 
-   ```bash
-   npx expo start
-   ```
+O aplicativo deve permitir a realização das seguintes operações:
+Adição +
+Subtração -
+Multiplicação *
+Divisão /
 
-In the output, you'll find options to open the app in a
+O aplicativo deve exibir na tela os números digitados e a operação selecionada.
+apresentar o resultado da operação ao pressionar o botão "=".
+deve permitir apagar todos os dados inseridos utilizando o botão "C".
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Requisitos Não Funcionais
 
-## Get a fresh project
+O aplicativo deve responder imediatamente ao pressionar qualquer botão.
+manter a organização da interface independentemente do tamanho da tela.
 
-When you're ready, run:
+## Escopo
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-=======
-# calculadoraExpo
->>>>>>> a4536f58a915c4908b8dfc568c85d6f5b760231e
+Este projeto possui operações matemáticas básicas: adição, subtração, multiplicação e divisão,
+o usuário insere os valores numéricos, seleciona a operação desejada e visualiza o resultado na tela
+não inclui funcionalidades avançadas de operações complexas apenas uma calculadora basica
