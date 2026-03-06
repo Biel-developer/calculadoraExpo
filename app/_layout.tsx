@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 import { useState } from "react";
 import { View, StyleSheet, Text, TouchableOpacity, ScrollView } from "react-native"
 
@@ -22,8 +21,6 @@ export default function Rootlayout() {
     setValor(eval(valor))
     setExpressao(valor)
   }
-
-
 
   return (
     <View style={style.container}>
@@ -49,7 +46,7 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao} onPress={() => adicionar('/')}>
-=======
+          
 import { View, StyleSheet, Text, TouchableOpacity } from "react-native"
 
 export default function Rootlayout() {
@@ -71,13 +68,11 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao}>
->>>>>>> 1b146c540e8ff17b2e63634d00a6e82c3d40116d
           <Text style={style.textoRow}>/</Text>
         </TouchableOpacity>
       </View>
 
       <View style={style.row}>
-<<<<<<< HEAD
         <TouchableOpacity style={style.botao} onPress={() => adicionar('4')}>
           <Text style={style.textoRow}>4</Text>
         </TouchableOpacity>
@@ -91,7 +86,6 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao} onPress={() => adicionar('*')}>
-=======
         <TouchableOpacity style={style.botao}>
           <Text style={style.textoRow}>4</Text>
         </TouchableOpacity>
@@ -105,13 +99,11 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao}>
->>>>>>> 1b146c540e8ff17b2e63634d00a6e82c3d40116d
           <Text style={style.textoRow}>*</Text>
         </TouchableOpacity>
       </View>
 
       <View style={style.row}>
-<<<<<<< HEAD
         <TouchableOpacity style={style.botao} onPress={() => adicionar('1')}>
           <Text style={style.textoRow}>1</Text>
         </TouchableOpacity>
@@ -125,7 +117,6 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao} onPress={() => adicionar('-')}>
-=======
         <TouchableOpacity style={style.botao}>
           <Text style={style.textoRow}>1</Text>
         </TouchableOpacity>
@@ -139,12 +130,10 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao}>
->>>>>>> 1b146c540e8ff17b2e63634d00a6e82c3d40116d
           <Text style={style.textoRow}>-</Text>
         </TouchableOpacity>
       </View>
 
-<<<<<<< HEAD
       <View style={style.row}>
         <TouchableOpacity style={style.botao} onPress={() => adicionar('0')}>
           <Text style={style.textoRow}>0</Text>
@@ -159,7 +148,6 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao} onPress={() => adicionar('+')}>
-=======
     <View style={style.row}>
         <TouchableOpacity style={style.botao}>
           <Text style={style.textoRow}>0</Text>
@@ -174,7 +162,6 @@ export default function Rootlayout() {
         </TouchableOpacity>
 
         <TouchableOpacity style={style.botao}>
->>>>>>> 1b146c540e8ff17b2e63634d00a6e82c3d40116d
           <Text style={style.textoRow}>+</Text>
         </TouchableOpacity>
       </View>
@@ -188,7 +175,6 @@ const style = StyleSheet.create({
     flex: 1,
     backgroundColor: "#121212",
     alignItems: "center",
-<<<<<<< HEAD
     justifyContent: "flex-end",
     padding: 15
   },
@@ -205,7 +191,6 @@ const style = StyleSheet.create({
     backgroundColor: '#1e1e1e',
     width: 85,
     height: 85,
-=======
     justifyContent: "center",
     width: "100%",
     height: "100%",
@@ -221,7 +206,6 @@ const style = StyleSheet.create({
     backgroundColor: '#1e1e1e',
     width: 70,
     height: 70,
->>>>>>> 1b146c540e8ff17b2e63634d00a6e82c3d40116d
     borderRadius: 25,
     padding: 5,
     alignItems: "center",
@@ -234,7 +218,6 @@ const style = StyleSheet.create({
     padding: 5,
     gap: 9
   },
-<<<<<<< HEAD
   textoRow: {
     color: "#fff",
     fontSize: 24,
@@ -251,10 +234,8 @@ const style = StyleSheet.create({
     fontSize: 45,
     marginLeft: 278,
     marginBottom: 525
-=======
   textoRow:{
     color: "#fff",
     fontSize: 24,
->>>>>>> 1b146c540e8ff17b2e63634d00a6e82c3d40116d
   }
 })
